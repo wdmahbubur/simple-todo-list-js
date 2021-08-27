@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To Do App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="heading">Simple To Do List</h1>
+    <h3>Date: <span id="date"></span></h3>
+    <section class="task-container">
+        <div>
+            <form action="#">
+                <textarea type="text" name="" id="input-task" placeholder="Enter You Task" rows="2"></textarea>
+                <button type="button" id="add-task">Add <i class="fas fa-plus"></i></button>
+            </form>
+        </div>
+        <div>
+            <ol id="task-list">
+                <h4 id="noTask" class="no-task">No Task</h4>
+            </ol>
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
